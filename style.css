@@ -1,0 +1,104 @@
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'PT Sans',sans-serif;
+}
+button:hover{
+    background-color: #163f83;
+}
+
+.navbar a:hover{
+    width: calc(initail+12px);
+}
+.navhider {
+    height: 3.125rem;
+}
+.portion{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem;
+}
+
+.para{
+    margin-top: 1rem;
+    line-height: 2em;
+    font-weight: bold;
+}
+.head {
+    font-size: 3rem;
+}
+.trail-button{
+    background-color: #103063;
+    display: block;
+    margin: auto;
+}
+
+.hero-brand {
+    font-size: 4rem;
+}
+.section-hero {
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    height: auto;
+}
+.section-doc{
+    background-color: #476f70;
+    height: auto;
+}
+
+.section-lecture {
+    min-height: 30rem;
+    background-color: #476f70;
+}
+
+.img-cont img {
+    margin-top: 2rem;
+    width: inherit;
+    height: inherit;
+    border-radius: 2rem;
+}
+
+.coupon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.gift-card img{
+    width: 70%;
+    border-radius: 2rem;
+}
+.spancont{
+    margin: 2rem;
+}
+.coupon-para , .footer-item{
+    font-size: 0.9rem;
+}
+
+.coupon-head{
+    margin-top: 0.6rem;
+}
+
+.footer {
+    background-color: #476f70;
+}
+
+.footer-card {
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    height: auto;
+    padding: 1rem;
+}
